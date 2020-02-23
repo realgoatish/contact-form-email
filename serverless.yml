@@ -13,7 +13,6 @@ provider:
   region: ${opt:region, "us-east-1"}
   stage: ${opt:stage, "dev"}
   environment: 
-    NODE_ENV: ${self:custom.secrets.NODE_ENV}
     EMAIL: ${self:custom.secrets.EMAIL}
     DOMAIN: ${self:custom.secrets.DOMAIN}
   iamRoleStatements:
