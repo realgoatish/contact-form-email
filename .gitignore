@@ -3,7 +3,9 @@ node_modules
 jspm_packages
 
 # secrets
-secrets.json
+secrets.dev.json
+secrets.qa.json
+secrets.prod.json
 
 # Serverless directories
 .serverless
